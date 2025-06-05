@@ -109,6 +109,11 @@ pip install spconv-cu118  # choose version match your local cuda version
 pip install open3d
 ```
 
+Alternatively, you can build the conda environment from the environment.yaml file by running:
+```
+conda env create -f environment.yml --verbose
+```
+
 - Flash Attention
 
 Following [README](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features) in Flash Attention repo and install Flash Attention for PTv3. This installation is optional, but we recommend enabling Flash Attention for PTv3.
